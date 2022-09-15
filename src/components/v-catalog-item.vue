@@ -29,7 +29,7 @@ export default {
   },
   methods: {
     sendData() {
-        this.$emit('sendArticle', this.product_data.article)
+      this.$emit("sendArticle", this.product_data.article);
     },
   },
 };
@@ -40,6 +40,7 @@ export default {
 .v-catalog-item {
   &__image {
     width: 100px;
+    max-height: 130px;
   }
   flex-basis: 25%;
   box-shadow: 0 0 8px #e0e0e0;
