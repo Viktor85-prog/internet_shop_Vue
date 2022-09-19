@@ -64,6 +64,10 @@ export default {
   &__image {
     width: 100px;
     max-height: 130px;
+    &:hover {
+      width: 120px;
+      max-height: 150px;
+    }
   }
   &__input {
     width: 25px;
